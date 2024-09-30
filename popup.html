@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Secure Proxy Settings</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Secure Proxy</h1>
+        
+        <div class="form-group">
+            <label for="regionSelect">Select Region:</label>
+            <select id="regionSelect">
+                <option value="">Select Region</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="de">Germany</option>
+                <!-- Add more regions as needed -->
+            </select>
+        </div>
+        
+        <div class="button-group">
+            <button id="setProxy" class="btn btn-primary">Set Proxy</button>
+            <button id="clearProxy" class="btn btn-secondary">Clear Proxy</button>
+        </div>
+        
+        <div id="status" class="status"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
