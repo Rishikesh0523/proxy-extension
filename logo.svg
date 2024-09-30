@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="globe-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2196F3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Globe -->
+  <circle cx="50" cy="50" r="45" fill="url(#globe-gradient)" />
+  
+  <!-- Latitude lines -->
+  <path d="M5 50 h90 M20 25 h60 M20 75 h60" stroke="white" stroke-width="2" fill="none" />
+  
+  <!-- Longitude lines -->
+  <path d="M50 5 v90 M25 20 v60 M75 20 v60" stroke="white" stroke-width="2" fill="none" />
+  
+  <!-- Shield -->
+  <path d="M50 30 L35 38 v12 c0 12 7 23 15 28 c8 -5 15 -16 15 -28 v-12 L50 30z" fill="#FFC107" stroke="#FF9800" stroke-width="2" />
+  
+  <!-- Lock -->
+  <rect x="45" y="45" width="10" height="8" rx="2" ry="2" fill="#FF9800" />
+  <rect x="47" y="40" width="6" height="10" rx="3" ry="3" fill="none" stroke="#FF9800" stroke-width="2" />
+</svg>

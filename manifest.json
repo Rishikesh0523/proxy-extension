@@ -11,7 +11,17 @@
       "service_worker": "background.js"
     },
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logo.svg",
+        "48": "logo.svg",
+        "128": "logo.svg"
+      }
+    },
+    "icons": {
+      "16": "logo.svg",
+      "48": "logo.svg",
+      "128": "logo.svg"
     },
     "host_permissions": [
       "<all_urls>"
