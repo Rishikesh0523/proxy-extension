@@ -6,6 +6,7 @@
 A Chrome extension that allows users to easily switch between different proxy servers for secure browsing.
 
 Note: To work you have to provide working proxy server details in the `background.js` file.
+Note 2: This code is still under development, to make it work, you have to edit it.
 
 ## Requirements
 
