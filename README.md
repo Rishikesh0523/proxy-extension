@@ -1,5 +1,8 @@
 # Proxy Extension
 
+<!-- Show logo.svg here -->
+![Logo](./logo.svg)
+
 A Chrome extension that allows users to easily switch between different proxy servers for secure browsing.
 
 Note: To work you have to provide working proxy server details in the `background.js` file.
